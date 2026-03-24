@@ -95,6 +95,21 @@ Complete guide to all documentation files for the Divjot Singh Arora Portfolio p
 
 **Time to complete**: 1-2 hours
 
+### 7. [SEO_META_TAGS_GUIDE.md](SEO_META_TAGS_GUIDE.md)
+**What**: Complete guide to favicon, meta tags, and SEO
+**When to use**: Optimizing for search engines and social sharing
+**Contents**:
+- Favicon creation and setup (all sizes)
+- Page title and description best practices
+- Open Graph tags for Facebook/LinkedIn
+- Twitter Card configuration
+- OG image creation (1200x630px)
+- site.webmanifest setup
+- Testing tools and validators
+- Troubleshooting guide
+
+**Time to complete**: 30-45 minutes
+
 ---
 
 ## 📂 Quick Reference
@@ -169,8 +184,11 @@ Complete guide to all documentation files for the Divjot Singh Arora Portfolio p
 **...change colors/theme**
 → Go to [CUSTOMIZATION_CHECKLIST.md](CUSTOMIZATION_CHECKLIST.md) → "Design Customization"
 
-**...add social links**
-→ Go to [CUSTOMIZATION_CHECKLIST.md](CUSTOMIZATION_CHECKLIST.md) → "Contact Section"
+**...optimize for SEO and social sharing**
+→ Go to [SEO_META_TAGS_GUIDE.md](SEO_META_TAGS_GUIDE.md)
+
+**...change favicon or meta tags**
+→ Go to [SEO_META_TAGS_GUIDE.md](SEO_META_TAGS_GUIDE.md)
 
 ---
 
@@ -231,7 +249,7 @@ If documentation doesn't answer your question:
 
 ## 📊 Documentation Stats
 
-- **Total Guides**: 6 comprehensive documents
+- **Total Guides**: 7 comprehensive documents
 - **Total Pages**: ~50 pages of documentation
 - **Code Examples**: 100+ ready-to-use commands
 - **Troubleshooting Sections**: 15+ common issues covered
