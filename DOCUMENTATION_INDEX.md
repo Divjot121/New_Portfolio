@@ -45,9 +45,25 @@ Complete guide to all documentation files for the Divjot Singh Arora Portfolio p
 
 ## 🌐 Deployment
 
-### 4. [HOSTINGER_DEPLOYMENT_GUIDE.md](HOSTINGER_DEPLOYMENT_GUIDE.md)
+### 4. [VERCEL_DEPLOYMENT_GUIDE.md](VERCEL_DEPLOYMENT_GUIDE.md) ⭐ RECOMMENDED
+**What**: Deploy to Vercel via GitHub (FREE)
+**When to use**: Best for automatic deployments and zero maintenance
+**Contents**:
+- GitHub setup (2 methods)
+- Vercel connection and configuration
+- Automatic deployments on every push
+- Custom domain setup (free)
+- Preview deployments for branches
+- Environment variables
+- Performance optimization
+- Complete troubleshooting
+
+**Time to complete**: 10 minutes
+**Cost**: FREE forever
+
+### 5. [HOSTINGER_DEPLOYMENT_GUIDE.md](HOSTINGER_DEPLOYMENT_GUIDE.md)
 **What**: Complete Hostinger deployment walkthrough
-**When to use**: Ready to deploy your portfolio live
+**When to use**: If you prefer traditional hosting or already have Hostinger
 **Contents**:
 - 3 deployment methods (Static, Node.js, VPS)
 - Step-by-step instructions for each method
@@ -58,12 +74,13 @@ Complete guide to all documentation files for the Divjot Singh Arora Portfolio p
 - Cost breakdown
 
 **Time to complete**: 15-30 minutes
+**Cost**: Starting at $2.99/month
 
 ---
 
 ## ✏️ Customization
 
-### 5. [CUSTOMIZATION_CHECKLIST.md](CUSTOMIZATION_CHECKLIST.md)
+### 6. [CUSTOMIZATION_CHECKLIST.md](CUSTOMIZATION_CHECKLIST.md)
 **What**: Line-by-line guide to personalize your portfolio
 **When to use**: Making the portfolio your own
 **Contents**:
@@ -131,6 +148,9 @@ Complete guide to all documentation files for the Divjot Singh Arora Portfolio p
 **...run the project locally**
 → Go to [QUICK_START.md](QUICK_START.md) → "Run Locally" section
 
+**...deploy to Vercel (recommended)**
+→ Go to [VERCEL_DEPLOYMENT_GUIDE.md](VERCEL_DEPLOYMENT_GUIDE.md)
+
 **...deploy to Hostinger**
 → Go to [HOSTINGER_DEPLOYMENT_GUIDE.md](HOSTINGER_DEPLOYMENT_GUIDE.md)
 
@@ -161,7 +181,7 @@ Complete guide to all documentation files for the Divjot Singh Arora Portfolio p
 1. ✅ [README.md](README.md) - Understand the project
 2. ✅ [QUICK_START.md](QUICK_START.md) - Run it locally
 3. ✅ [CUSTOMIZATION_CHECKLIST.md](CUSTOMIZATION_CHECKLIST.md) - Make it yours
-4. ✅ [HOSTINGER_DEPLOYMENT_GUIDE.md](HOSTINGER_DEPLOYMENT_GUIDE.md) - Deploy it live
+4. ✅ [VERCEL_DEPLOYMENT_GUIDE.md](VERCEL_DEPLOYMENT_GUIDE.md) - Deploy FREE via GitHub (Recommended)
 
 ### For Development:
 
@@ -170,7 +190,8 @@ Complete guide to all documentation files for the Divjot Singh Arora Portfolio p
 
 ### For Deployment:
 
-1. ✅ [HOSTINGER_DEPLOYMENT_GUIDE.md](HOSTINGER_DEPLOYMENT_GUIDE.md) - Full deployment guide
+1. ✅ [VERCEL_DEPLOYMENT_GUIDE.md](VERCEL_DEPLOYMENT_GUIDE.md) - FREE automated deployment (Recommended)
+2. ✅ [HOSTINGER_DEPLOYMENT_GUIDE.md](HOSTINGER_DEPLOYMENT_GUIDE.md) - Traditional hosting option
 
 ---
 
@@ -210,7 +231,7 @@ If documentation doesn't answer your question:
 
 ## 📊 Documentation Stats
 
-- **Total Guides**: 5 comprehensive documents
+- **Total Guides**: 6 comprehensive documents
 - **Total Pages**: ~50 pages of documentation
 - **Code Examples**: 100+ ready-to-use commands
 - **Troubleshooting Sections**: 15+ common issues covered

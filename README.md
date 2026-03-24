@@ -46,7 +46,8 @@ yarn start
 
 - **[Quick Start Guide](QUICK_START.md)** - Get up and running in 5 minutes
 - **[Local Setup Guide](LOCAL_SETUP_GUIDE.md)** - Detailed local development instructions
-- **[Hostinger Deployment Guide](HOSTINGER_DEPLOYMENT_GUIDE.md)** - Complete deployment walkthrough
+- **[Vercel Deployment Guide](VERCEL_DEPLOYMENT_GUIDE.md)** ⭐ Recommended - FREE deployment via GitHub
+- **[Hostinger Deployment Guide](HOSTINGER_DEPLOYMENT_GUIDE.md)** - Traditional hosting option
 
 ---
 
@@ -111,24 +112,33 @@ Colors are defined inline in component files. Use find & replace to update.
 
 ## 🚢 Deployment
 
-### Hostinger (Recommended)
+### Vercel (Recommended - FREE)
+
+**Easiest deployment with automatic updates on every git push!**
 
 ```bash
-# 1. Build the project
-cd frontend
-yarn build
+# 1. Push code to GitHub
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/YOUR_USERNAME/portfolio.git
+git push -u origin main
 
-# 2. Upload build files to Hostinger
-# Upload all files from frontend/build/ to public_html/
+# 2. Go to vercel.com
+# - Sign in with GitHub
+# - Import your repository
+# - Deploy! (takes 2-3 minutes)
 
-# 3. Configure .htaccess for React Router
-# See HOSTINGER_DEPLOYMENT_GUIDE.md for details
+# 3. Get your live URL
+# https://your-portfolio.vercel.app
 ```
+
+**See detailed guide**: [VERCEL_DEPLOYMENT_GUIDE.md](VERCEL_DEPLOYMENT_GUIDE.md)
 
 ### Other Platforms
 
-- **Vercel**: `vercel --prod`
-- **Netlify**: Drag & drop build folder
+- **Hostinger**: See [HOSTINGER_DEPLOYMENT_GUIDE.md](HOSTINGER_DEPLOYMENT_GUIDE.md)
+- **Netlify**: Similar to Vercel, drag & drop build folder
 - **AWS S3**: Upload to S3 bucket with static hosting
 - **VPS**: See HOSTINGER_DEPLOYMENT_GUIDE.md for Nginx setup
 

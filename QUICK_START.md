@@ -19,6 +19,40 @@ yarn start
 
 ---
 
+## Deploy to Vercel (Recommended - 10 minutes)
+
+### Quick Deployment via GitHub
+
+```bash
+# 1. Push to GitHub
+cd /app
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/YOUR_USERNAME/portfolio.git
+git push -u origin main
+
+# 2. Deploy on Vercel
+# - Go to vercel.com
+# - Sign in with GitHub
+# - Import your repository
+# - Click Deploy
+
+# 3. Done! Your site is live
+# https://your-portfolio.vercel.app
+```
+
+**Benefits**:
+- ✅ FREE forever
+- ✅ Automatic deployments on every git push
+- ✅ Free SSL certificate (HTTPS)
+- ✅ Global CDN
+- ✅ Preview deployments for branches
+
+**Full Guide**: See [VERCEL_DEPLOYMENT_GUIDE.md](VERCEL_DEPLOYMENT_GUIDE.md)
+
+---
+
 ## Deploy to Hostinger (15 minutes)
 
 ### Quick Deployment Steps
@@ -40,6 +74,22 @@ yarn build
 # 4. Visit your domain
 # https://yourdomain.com
 ```
+
+**Full Guide**: See [HOSTINGER_DEPLOYMENT_GUIDE.md](HOSTINGER_DEPLOYMENT_GUIDE.md)
+
+---
+
+## Deployment Comparison
+
+| Feature | Vercel | Hostinger |
+|---------|--------|-----------|
+| **Cost** | FREE | $2.99+/mo |
+| **Setup Time** | 10 min | 30 min |
+| **Auto Deploy** | ✅ Yes | ❌ No |
+| **SSL/HTTPS** | ✅ Free | ✅ Free |
+| **Best For** | Portfolios, Auto-updates | Full control |
+
+**Recommendation**: Use **Vercel** for portfolios and side projects (FREE + automatic updates!)
 
 ---
 
