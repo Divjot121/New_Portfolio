@@ -1,0 +1,162 @@
+{
+  "theme": "dark",
+  "typography": {
+    "heading_font": "Outfit",
+    "body_font": "Manrope",
+    "notes": "Headings must use 'Outfit' with tight letter spacing (tracking-tight or tracking-tighter) for a bold, modern, and futuristic look. Body text uses 'Manrope' (leading-relaxed) for maximum readability in dark environments. DO NOT use Inter for headings."
+  },
+  "colors": {
+    "background": "#05050A",
+    "surface": "rgba(255, 255, 255, 0.03)",
+    "surface_hover": "rgba(255, 255, 255, 0.08)",
+    "primary_purple": "#6C63FF",
+    "primary_blue": "#00D4FF",
+    "neon_pink": "#FF6FD8",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#A1A1AA",
+    "border_subtle": "rgba(255, 255, 255, 0.1)"
+  },
+  "visual_enhancers": {
+    "glassmorphism": "Use 'backdrop-blur-xl bg-white/5 border border-white/10' for cards, sticky floating headers, and panels.",
+    "glow_effects": "Use layered box-shadows: 'shadow-[0_0_40px_rgba(108,99,255,0.15)]' for hovering states on primary cards to feel neon and energetic.",
+    "gradients": "Implement 'bg-gradient-to-r from-[#6C63FF] via-[#00D4FF] to-[#FF6FD8]' for CTA buttons, key headings (with 'bg-clip-text text-transparent'), and subtle border accents.",
+    "border_radius": "Strictly 20–24px (rounded-2xl or rounded-3xl) for all main containers and cards."
+  },
+  "layout_and_spacing": {
+    "strategy": "Generous Spacing Philosophy. Sections should have py-24 or py-32 to give elements breathing room. Use the 'Bento Grid' approach for the About Me and Work sections to create asymmetry and visual tension.",
+    "grid_gaps": "gap-6 or gap-8 between bento items.",
+    "alignment": "Left-align paragraphs, tags, and dense content. Headings can be left-aligned or centered depending on the section symmetry."
+  },
+  "motion_and_interactions": {
+    "hover_states": "Cards must elevate slightly ('-translate-y-2') and increase border opacity + glow shadow on hover.",
+    "scroll_animations": "Elements should fade in and translate up gracefully using framer-motion as the user scrolls. Stagger list items.",
+    "micro_interactions": "Gradient buttons should have a sweeping animated gradient background or an intense glow ring on hover.",
+    "parallax": "Apply subtle parallax effects to floating elements in the hero using framer-motion."
+  },
+  "accessibility": {
+    "contrast": "Ensure text contrast meets APCA/WCAG standards. Secondary text should be a light readable gray (#A1A1AA) instead of dark gray.",
+    "focus": "focus-visible:ring-2 focus-visible:ring-[#00D4FF] focus-visible:outline-none"
+  },
+  "sections_and_components": [
+    {
+      "name": "Hero Section",
+      "description": "Full height (min-h-screen). Asymmetrical, high-impact layout.",
+      "elements": [
+        "Headline: 'Don't Wait for Permission. Build.' using gradient text.",
+        "Subtext: Short intro about Divjot (startup founder, developer, community leader).",
+        "CTAs: 'View Work' (Gradient Button), 'Connect' (Glassmorphic Button).",
+        "Visuals: Floating UI elements, stylized code snippets, and glowing 3D shape image."
+      ]
+    },
+    {
+      "name": "About Me",
+      "description": "Bento-style layout avoiding a standard wall of text.",
+      "elements": [
+        "Image block with the young tech entrepreneur portrait.",
+        "Impact-focused story block emphasizing the builder mindset.",
+        "Tags: Founder, Developer, Speaker."
+      ]
+    },
+    {
+      "name": "Work / Projects",
+      "description": "Card-based layout.",
+      "elements": [
+        "Glassmorphic cards with project images (e.g. PDF SaaS, CalmNest).",
+        "Tags in neon colors (AI, SaaS, Web Dev).",
+        "Hover scale effects and deep neon shadows."
+      ]
+    },
+    {
+      "name": "Achievements",
+      "description": "Timeline or staggered cards highlighting speaking gigs and awards.",
+      "elements": [
+        "Highlights: TEDx speaker, Josh Talks, VBYLD Finalist, GDG Growth Lead.",
+        "Minimal icons."
+      ]
+    },
+    {
+      "name": "Skills",
+      "description": "Pill-based tags grouped logically.",
+      "elements": [
+        "Practical stack (Next.js, Tailwind, AI, Python).",
+        "Glassmorphic pills with soft hover glows."
+      ]
+    },
+    {
+      "name": "Speaking / Community",
+      "description": "Showcasing community impact.",
+      "elements": [
+        "Stage speaker image.",
+        "Quotes or metric highlights for credibility."
+      ]
+    },
+    {
+      "name": "Ideas I'm Exploring",
+      "description": "Minimal 2-3 column card grid for unfinished/experimental ideas.",
+      "elements": [
+        "Status labels ('Exploring', 'Building', 'Thinking').",
+        "Soft gradient cards."
+      ]
+    },
+    {
+      "name": "Currently Building",
+      "description": "A live-feel section, acting like a startup founder's active log.",
+      "elements": [
+        "Terminal-style window or animated pulse indicator (relative flex h-3 w-3 with ping animation).",
+        "Snippet of what's currently in progress."
+      ]
+    },
+    {
+      "name": "Contact / CTA",
+      "description": "Strong final impression.",
+      "elements": [
+        "Bold message: 'Let's build something meaningful'.",
+        "Social links (LinkedIn, GitHub, Email)."
+      ]
+    }
+  ],
+  "image_urls": [
+    {
+      "url": "https://images.unsplash.com/photo-1758979616631-d425001a1f2d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGdsb3dpbmclMjBmdXR1cmlzdGljJTIwM2QlMjBzaGFwZXN8ZW58MHx8fHwxNzc0MzQyMzc3fDA&ixlib=rb-4.1.0&q=85",
+      "category": "Hero Background / Floating Image",
+      "description": "Abstract dark cubes with vibrant purple light. Use as a floating decor in the hero."
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1638957361099-daf55b345543?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwzfHx5b3VuZyUyMHRlY2glMjBlbnRyZXByZW5ldXIlMjBwb3J0cmFpdCUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3NDM0MjM3NHww&ixlib=rb-4.1.0&q=85",
+      "category": "About Me Portrait",
+      "description": "Man in a dark jacket representing Divjot Singh Arora."
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1575388902449-6bca946ad549?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzV8MHwxfHNlYXJjaHwxfHxzYWFzJTIwZGFzaGJvYXJkJTIwaW50ZXJmYWNlJTIwZGFya3xlbnwwfHx8fDE3NzQzNDIzNzV8MA&ixlib=rb-4.1.0&q=85",
+      "category": "Project Thumbnail 1",
+      "description": "SaaS dashboard interface for Work section."
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1602192190451-97694b35b509?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzV8MHwxfHNlYXJjaHwzfHxzYWFzJTIwZGFzaGJvYXJkJTIwaW50ZXJmYWNlJTIwZGFya3xlbnwwfHx8fDE3NzQzNDIzNzV8MA&ixlib=rb-4.1.0&q=85",
+      "category": "Project Thumbnail 2",
+      "description": "Abstract UI texture for a project."
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1762968274962-20c12e6e8ecd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwzfHxzcGVha2VyJTIwb24lMjBzdGFnZSUyMHRlY2glMjBldmVudHxlbnwwfHx8fDE3NzQzNDIzNzZ8MA&ixlib=rb-4.1.0&q=85",
+      "category": "Speaking & Community",
+      "description": "Speaker presenting on stage for the Community section."
+    }
+  ],
+  "dependencies": [
+    "framer-motion",
+    "lucide-react"
+  ],
+  "universal_guidelines": [
+    "You MUST NOT apply universal transition (e.g., transition: all). Add transitions to specific interactive elements excluding transforms.",
+    "Do NOT center align the app container. No '.App { text-align: center; }'.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "All interactive and key informational elements MUST include a data-testid attribute for automated testing.",
+    "Never use generic AI emojis for icons. Use lucide-react.",
+    "Do NOT use complete transparent backgrounds for overlays, headers, or anything with content under it. Add a blur or dark semi-transparent bg.",
+    "Never apply a Vercel/Stripe default look. Make it cinematic and edgy.",
+    "Use named exports for components and default exports for pages.",
+    "Use .jsx / .js extensions for components instead of .tsx since this project uses JS."
+  ]
+}
