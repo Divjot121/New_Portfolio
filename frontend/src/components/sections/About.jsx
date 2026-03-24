@@ -31,7 +31,7 @@ export const About = () => {
             data-testid="about-image-card"
           >
             <img
-              src="https://images.unsplash.com/photo-1638957361099-daf55b345543?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwzfHx5b3VuZyUyMHRlY2glMjBlbnRyZXByZW5ldXIlMjBwb3J0cmFpdCUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3NDM0MjM3NHww&ixlib=rb-4.1.0&q=85"
+              src="https://i.ibb.co/WWKxtKPD/divjot.jpg[/img][/url]"
               alt="Divjot Singh Arora"
               className="w-full h-full object-cover"
             />
@@ -46,14 +46,21 @@ export const About = () => {
             data-testid="about-story-card"
           >
             <h3 className="font-['Outfit'] text-2xl lg:text-3xl font-bold mb-6 tracking-tight">
-              Building the Future Early
+              Divjot Singh
             </h3>
             <div className="font-['Manrope'] text-[#A1A1AA] space-y-4 leading-relaxed text-base lg:text-lg">
               <p>
-                I don't believe in waiting for permission to create. As a young entrepreneur and developer, I've built products that solve real problems, led communities that empower builders, and spoken on stages to inspire the next generation.
+                I’m Divjot Singh Arora, a 15-year-old developer, builder, and community-driven creator from Amritsar. I focus on turning ideas into real, usable tech—whether that’s building products, writing code, or designing modern digital experiences.
+
+As the Growth Lead at Google Developer Groups Ludhiana, I work on growing and engaging developer communities, helping students and young builders get started in tech. I also run SOS TECH, where I aim to make technology more accessible and practical for learners across Punjab.
+
+Beyond building, I’ve authored three coding books and shared ideas on platforms like Josh Talks. Recently, I was selected as the youngest national finalist for the Viksit Bharat Young Leaders Dialogue.
+
+Right now, I’m focused on creating impactful tech, learning fast, and helping others build along the way.
               </p>
               <p>
                 From launching SaaS products to leading tech communities, my mission is simple: enable young people to build, ship, and lead without waiting for traditional gatekeepers.
+                Building early, learning fast, and creating things that actually make a difference.
               </p>
             </div>
 

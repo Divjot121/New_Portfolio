@@ -94,13 +94,13 @@ export const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-[#A1A1AA] hover:text-[#00D4FF] transition-colors" data-testid="social-github">
+          <a href="https://github.com/divjot121" target="_blank" rel="noopener noreferrer" className="text-[#A1A1AA] hover:text-[#00D4FF] transition-colors" data-testid="social-github">
             <Github className="w-6 h-6" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-[#A1A1AA] hover:text-[#00D4FF] transition-colors" data-testid="social-linkedin">
+          <a href="https://www.linkedin.com/in/divjot-aroraa/" target="_blank" rel="noopener noreferrer" className="text-[#A1A1AA] hover:text-[#00D4FF] transition-colors" data-testid="social-linkedin">
             <Linkedin className="w-6 h-6" />
           </a>
-          <a href="mailto:divjot@example.com" className="text-[#A1A1AA] hover:text-[#00D4FF] transition-colors" data-testid="social-email">
+          <a href="mailto:aroradivjotsingh@gmail.com" className="text-[#A1A1AA] hover:text-[#00D4FF] transition-colors" data-testid="social-email">
             <Mail className="w-6 h-6" />
           </a>
         </motion.div>

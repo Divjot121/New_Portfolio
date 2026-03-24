@@ -7,10 +7,10 @@ export const Contact = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const socialLinks = [
-    { icon: Github, label: 'GitHub', href: 'https://github.com' },
-    { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com' },
-    { icon: Twitter, label: 'Twitter', href: 'https://twitter.com' },
-    { icon: Mail, label: 'Email', href: 'mailto:divjot@example.com' }
+    { icon: Github, label: 'GitHub', href: 'https://github.com/divjot121' },
+    { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/divjot-aroraa/' },
+    { icon: Twitter, label: 'Twitter', href: 'https://x.com/Divjot121' },
+    { icon: Mail, label: 'Email', href: 'mailto:aroradivjotsingh@gmail.com' }
   ];
 
   return (
@@ -72,7 +72,7 @@ export const Contact = () => {
           transition={{ duration: 0.6, delay: 0.5 }}
         >
           <p className="font-['Manrope'] text-[#A1A1AA] text-sm">
-            © 2024 Divjot Singh Arora. Built with curiosity and purpose.
+            © 2026 Divjot Singh Arora. Built with curiosity and purpose.
           </p>
         </motion.div>
       </div>

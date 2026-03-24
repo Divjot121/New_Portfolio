@@ -7,7 +7,13 @@ const achievements = [
     icon: Mic,
     title: 'TEDx Speaker',
     description: 'Shared insights on youth entrepreneurship and building without permission',
-    year: '2024'
+    year: '2026'
+  },
+  {
+    icon: Trophy,
+    title: 'VBYLD Finalist',
+    description: 'Recognized among India\'s top young builders',
+    year: '2026'
   },
   {
     icon: Mic,
@@ -16,16 +22,10 @@ const achievements = [
     year: '2023'
   },
   {
-    icon: Trophy,
-    title: 'VBYLD Finalist',
-    description: 'Recognized among India\'s top young builders',
-    year: '2023'
-  },
-  {
     icon: Users,
     title: 'GDG Growth Lead',
     description: 'Led community initiatives reaching 1000+ developers',
-    year: '2023-24'
+    year: '2023-Present'
   }
 ];
 

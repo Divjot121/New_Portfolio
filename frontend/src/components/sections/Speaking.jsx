@@ -29,7 +29,7 @@ export const Speaking = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <img
-              src="https://images.unsplash.com/photo-1762968274962-20c12e6e8ecd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwzfHxzcGVha2VyJTIwb24lMjBzdGFnZSUyMHRlY2glMjBldmVudHxlbnwwfHx8fDE3NzQzNDIzNzZ8MA&ixlib=rb-4.1.0&q=85"
+              src="https://i.ibb.co/7t47Dq1c/quote-pic-divjot.png[/img][/url]"
               alt="Speaking at tech event"
               className="w-full h-full object-cover"
             />
@@ -61,7 +61,7 @@ export const Speaking = () => {
               </div>
               <div className="rounded-3xl p-6 backdrop-blur-xl bg-white/5 border border-white/10" data-testid="speaking-stat-audience">
                 <div className="font-['Outfit'] text-4xl font-bold bg-gradient-to-r from-[#00D4FF] to-[#FF6FD8] bg-clip-text text-transparent mb-2">
-                  5K+
+                  10K+
                 </div>
                 <div className="font-['Manrope'] text-[#A1A1AA]">People Reached</div>
               </div>
