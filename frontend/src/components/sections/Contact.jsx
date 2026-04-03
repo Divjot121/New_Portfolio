@@ -110,7 +110,7 @@ export const Contact = () => {
 
                     {/* 🔥 Primary CTA */}
                     <motion.a
-                        href="mailto:aroradivjotsingh@gmail.com"
+                        href="mailto:contact@divjotsingh.com"
                         className="inline-flex items-center gap-3 px-8 py-4 rounded-full font-semibold bg-gradient-to-r from-[#6C63FF] to-[#00D4FF] text-white shadow-lg hover:scale-105 hover:shadow-[0_0_40px_rgba(108,99,255,0.5)] transition-all mb-12"
                         initial={{ opacity: 0, y: 40 }}
                         animate={isInView ? { opacity: 1, y: 0 } : {}}
